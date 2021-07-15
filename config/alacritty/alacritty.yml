@@ -1,0 +1,42 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 2
+    y: 2
+
+  dynamic_padding: false
+
+scrolling:
+  history: 5000
+
+colors:
+  primary:
+    background: '0x1c1c1c'
+    foreground: '0xb5b4c9'
+
+background_opacity: 1.0
+
+key_bindings:
+  - { key: V,         mods: Control|Shift, action: Paste                       }
+  - { key: C,         mods: Control|Shift, action: Copy                        }
+
+cursor:
+  style:
+    shape: Underline
+
+font:
+  normal:
+    family: Terminus
+    style: Regular
+
+  bold:
+    family: Terminus
+    style: Bold
+
+  italic:
+    family: monospace
+    style: Italic
+
+  size: 9
