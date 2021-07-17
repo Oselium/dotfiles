@@ -9,7 +9,6 @@ alias code='code & disown; exit'
 alias ls='ls -a --color=auto'
 alias purge='sudo pacman -Rsn $(pacman -Qdtq)'
 alias update='sudo pacman -Syu'
-#alias install='function _install(){ sudo pacman -S $1 };_install'
 alias weather='function _weather(){ curl wttr.in/$1;};_weather'
 
 PS1='[\[\033[00;32m\]\u\[\033[00m\]@\h \[\033[1;31m\]\W\[\033[00m\]]\$ '
