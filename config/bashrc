@@ -13,10 +13,3 @@ alias weather='function _weather(){ curl wttr.in/$1;};_weather'
 
 PS1='[\[\033[00;32m\]\u\[\033[00m\]@\h \[\033[1;31m\]\W\[\033[00m\]]\$ '
 export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:di=1;34:fi=1;97:"
-
-PATH="/home/oselium/perl5/bin${PATH:+:${PATH}}"; export PATH;
-
-PERL5LIB="/home/oselium/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/oselium/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/oselium/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/oselium/perl5"; export PERL_MM_OPT;
